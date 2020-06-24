@@ -76,3 +76,15 @@ color = "Blue"
 
 print "Ah, so your name is %s, your quest is %s, " \
 "and your favorite color is %s." %(name, quest, color)
+
+from datetime import datetime
+
+from datetime import datetime
+
+now = datetime.now()
+print now
+
+
+print '%02d/%02d/%04d' % (now.month, now.day, now.year)
+
+print '%02d/%02d/%04d' % (now.month, now.day, now.year) + ' %02d:%02d:%04d' % (now.hour, now.minute, now.second)
