@@ -53,3 +53,26 @@ point_total = 100
 point_total = 100 + exercises_completed * points_per_exercise
 
 print "I got " + str(point_total) +" points!"
+
+"""
+The string "PYTHON" has six characters,
+numbered 0 to 5, as shown below:
+
++---+---+---+---+---+---+
+| P | Y | T | H | O | N |
++---+---+---+---+---+---+
+  0   1   2   3   4   5
+
+So if you wanted "Y", you could just type
+"PYTHON"[1] (always start counting from 0!)
+"""
+fifth_letter = 'MONTY'[4]
+
+print fifth_letter
+
+name = "Alex"
+quest = "Teaching Python"
+color = "Blue"
+
+print "Ah, so your name is %s, your quest is %s, " \
+"and your favorite color is %s." %(name, quest, color)
