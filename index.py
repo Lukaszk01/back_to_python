@@ -180,3 +180,31 @@ def trip_cost(city, days, spending_money):
   return rental_car_cost(days) + hotel_cost(days - 1) + plane_ride_cost(city) + spending_money
 
 print trip_cost("Los Angeles", 5, 600)
+
+
+
+
+shopping_list = ["banana", "orange", "apple"]
+
+stock = {
+  "banana": 6,
+  "apple": 0,
+  "orange": 32,
+  "pear": 15
+}
+
+prices = {
+  "banana": 4,
+  "apple": 2,
+  "orange": 1.5,
+  "pear": 3
+}
+
+# Write your code below!
+def compute_bill(food):
+  total = 0
+  for item in food:
+    if prices[key] > 0:
+      total = total + prices[item]
+      total / stock[key]
+  return total
