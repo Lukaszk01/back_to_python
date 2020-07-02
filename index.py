@@ -248,3 +248,34 @@ def get_class_average(class_list):
     results.append(student_avg)
   return average(results)
 
+  n = [3, 5, 7]
+
+def total(numbers):
+    result = 0
+    for i in range(0,len(numbers)):
+        result += numbers[i]
+    return result
+
+n = [[1, 2, 3], [4, 5, 6, 7, 8, 9]]
+# Add your function here
+
+def flatten(lists):
+  results = []
+  for numbers in lists:
+    for number in numbers:
+      results.append(number)
+  return results
+
+print flatten(n)
+
+n = ["Michael", "Lieberman"]
+# Add your function here
+
+def join_strings(words):
+    result = ""
+    for w in range(len(words)):
+        result += words[w]
+    return result
+
+
+print join_strings(n)
