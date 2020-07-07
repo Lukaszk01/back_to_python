@@ -30,3 +30,12 @@ for f in fruits:
   print 'A', f
 else:
   print 'A fine selection of fruits!'
+
+
+def digit_sum(n):
+  sum = 0
+  for i in str(n):
+    sum += int(i)
+  return sum
+print digit_sum(1234)
+
